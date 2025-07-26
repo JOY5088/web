@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alibaba</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      color: white;
+      background: #111;
+    }
+
+    header {
+      background-color: #000;
+      padding: 10px 20px;
+    }
+
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .top-menu {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .flag {
+      width: 20px;
+      height: auto;
+      vertical-align: middle;
+    }
+
+    .btn-orange {
+      background-color: #ff6a00;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .nav-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 14px;
+      padding: 10px 20px;
+      background-color: #222;
+    }
+
+    .hero {
+      background-image: url('https://img.alicdn.com/tfs/TB1JQ6Iv4vbeK8jSZPfXXariXXa-3840-960.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
+      position: relative;
+    }
+
+    .hero-overlay {
+      background: rgba(0, 0, 0, 0.65);
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      border-radius: 10px;
+    }
+
+    .learn-link {
+      font-size: 16px;
+      color: #ddd;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 25px;
+      line-height: 1.4;
+    }
+
+    .search-bar {
+      display: flex;
+      margin-bottom: 20px;
+      border-radius: 25px;
+      overflow: hidden;
+      background: white;
+    }
+
+    .search-bar input {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      font-size: 16px;
+      color: #333;
+    }
+
+    .search-bar .btn-orange {
+      border-radius: 0;
+      font-size: 16px;
+      padding: 12px 20px;
+    }
+
+    .tags {
+      display: flex;
+      gap: 12px;
+      font-size: 14px;
+      flex-wrap: wrap;
+    }
+
+    .tags span {
+      background: #333;
+      padding: 6px 12px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <div class="logo">Alibaba.com</div>
+      <div class="top-menu">
+        <span>Deliver to: <img src="https://flagcdn.com/w40/bd.png" alt="BD flag" class="flag"/> BD</span>
+        <span>English-BDT</span>
+        <span>🛒</span>
+        <span>👤 Sign in</span>
+        <button class="btn-orange">Create account</button>
+      </div>
+    </div>
+    <nav class="nav-bar">
+      <span>☰ All categories</span>
+      <span>Featured selections</span>
+      <span>Order protections</span>
+      <span>AI sourcing agent</span>
+      <span>Buyer Central</span>
+      <span>Help Center</span>
+      <span>App & extension</span>
+      <span>Become a supplier</span>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="hero-overlay">
+      <p class="learn-link">▶ Learn about Alibaba.com</p>
+      <h1>The leading B2B ecommerce platform for global trade</h1>
+
+      <div class="search-bar">
+        <input type="text" placeholder="iphones 15 pro max"/>
+        <button class="btn-orange">🔍 Search</button>
+      </div>
+
+      <div class="tags">
+        <span>iphones 15 pro max</span>
+        <span>pakistani dress</span>
+        <span>watch for men</span>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
